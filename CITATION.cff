@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite this software release and the OpenNeuro ds007526 v1.0.2 dataset; also cite the associated journal article once published."
+title: "Theta-band EEG network reconfiguration from rest to walking in Parkinson's disease: analysis code"
+type: software
+authors:
+  - family-names: "Mateen"
+    given-names: "Nida"
+version: "1.0.0"
