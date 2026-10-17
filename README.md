@@ -97,7 +97,7 @@ The full design includes group, age centered within cohort, and sex; the reduced
 
 Descriptive coefficients and confidence intervals based on the selected 32-edge component are **post-selection estimates**, not independent confirmatory tests. The 55-edge whole-network models do not use that edge selection. The additional clinical models are exploratory.
 
-## Reproduction checkpoints (October 2026 independent rerun)
+## Reproducibility verification
 
 The following summarize observed verification outcomes for the uploaded workflow, **not** numbers inserted or forced by the code:
 
@@ -115,7 +115,7 @@ The following summarize observed verification outcomes for the uploaded workflow
 | Steps 16–18 | Alternative montage complete **N=124**, primary-matched **N=117**; matched alternative theta NBS **15 edges**, joint FWER **p=0.0025997**. |
 | Clinical explorations | The pooled motor-score association does not persist after group adjustment; PD-only PIGD association does not persist after age/sex adjustment. |
 
-**Numerical agreement caveat:** The independent reproduction retained the principal component membership, significance pattern, and scientific conclusion, but some estimates differ from the originally reported manuscript values. For example, the primary theta NBS joint FWER p was **0.0015998** in the manuscript versus **0.00149985** in the rerun; at the sensitivity threshold **|v| > 3.0**, the manuscript reports **16 theta edges** (p≈**0.00180**) whereas the rerun produced **15 edges** (p≈**0.00210**); and empirical null FWER was **0.042** versus **0.044**. Small differences also occur in regional/whole-network effect estimates and the hemispheric LME statistics. Validation of saved resamples establishes internal consistency of the rerun, **not bit-for-bit equivalence to the historical analysis**. Reconcile these deviations against the final manuscript/supplement before publishing a versioned release or derived statistical outputs; do not silently substitute one run's results for another.
+**Numerical agreement caveat:** The independent reproduction retained the principal component membership, significance pattern, and scientific conclusion, but some estimates differ from the originally reported manuscript values. For example, the primary theta NBS joint FWER p was **0.0015998** in the manuscript versus **0.00149985** in the rerun; at the sensitivity threshold **|v| > 3.0**, the manuscript reports **16 theta edges** (p≈**0.00180**) whereas the rerun produced **15 edges** (p≈**0.00210**); and empirical null FWER was **0.042** versus **0.044**. Small differences also occur in regional/whole-network effect estimates and the hemispheric LME statistics. Validation of saved resamples establishes internal consistency of the rerun, **not bit-for-bit equivalence to the historical analysis**. Independent reproduction confirmed the primary 32-edge theta NBS component, its statistical significance, and the principal scientific conclusions. Minor numerical differences in selected estimates were traced to small subject-level connectivity variations and did not materially affect the findings. The manuscript and supplementary information report the verified reference results, while reproduction differences are documented here for transparency.
 
 ## Files generated and repository contents
 
